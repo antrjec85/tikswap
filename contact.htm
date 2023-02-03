@@ -1,0 +1,73 @@
+   <!-- the lines above are needed -->
+
+    <!DOCTYPE html>
+    <!-- Created By CodingLab - www.codinglabweb.com -->
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="UTF-8">
+       <!-- <title> Responsive Contact Us Form  | CodingLab </title>-->
+        <link rel="stylesheet" href="code.css">
+        <!-- Fontawesome CDN Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script type="text/javascript">
+            function submitcontact()
+             {
+                 document.getElementById('fcf-thank-you').style.display='block';
+             }
+         </script>
+       </head>
+    <body>
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+    
+              <div class="topic">Address</div>
+              <div class="text-one">10392 Westchester Dr</div>
+              <div class="text-two">Stanton, CA</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+1 5712757349</div>
+              
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">gotas.dev@gmail.com</div>
+              <div class="text-two">support.gotas@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text" style="color: red;font-size: 30px;text-align: center;">TIKSWAP EARN MONEY</div>
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" onclick="submitcontact()" >
+            </div>
+            <div id="fcf-thank-you" style="display:none;padding-top: 30px;">
+                <!-- Thank you message goes below -->
+                <strong>Thank you</strong>
+                <p>Thanks for contacting us, we will get back in touch with you soon.</p>
+                <!-- Thank you message goes above -->
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    </body>
+    </html>
+    
